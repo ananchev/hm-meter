@@ -1,0 +1,14 @@
+Board type: CC2530 (without external oscillator, like CC2531 dongle or Sonoff BasicZBR3)
+Device type: End device without routing
+Model ID: mtReader
+Update firmware's timestamp : 2024-01-05
+Status LED: P00, Joining or errors
+
+Output pins:
+P02: Output 1, MODBUS RTU (UART: 9600 8N1, Device address: 102, Function: 3 - Holding registers, Memory offset: 0, Data type: Unsigned 16 bit (Big-endian), Number of _values_: 1)
+P02: Output 3, MODBUS RTU (UART: 9600 8N1, Device address: 102, Function: 3 - Holding registers, Memory offset: 1, Data type: Signed 16 bit (Big-endian), Number of _values_: 1)
+P02: Output 4, MODBUS RTU (UART: 9600 8N1, Device address: 103, Function: 3 - Holding registers, Memory offset: 0, Data type: Unsigned 16 bit (Big-endian), Number of _values_: 1)
+P02: Output 5, MODBUS RTU (UART: 9600 8N1, Device address: 103, Function: 3 - Holding registers, Memory offset: 1, Data type: Signed 16 bit (Big-endian), Number of _values_: 1)
+
+Input pins:
+P12: Input 1, GPIO, Pull-up (Bind command: On/Off)
