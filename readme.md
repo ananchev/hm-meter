@@ -47,7 +47,7 @@ The firmware implements a simple MODBUS RTU master mode and reads instruments ho
 On CC2531 UART uses P02 and P03 pins connected respectively to IO 1 and 2. Only P02 pin should be used in the configuration, but both IO1 and IO2 connected physically to the dongle via the the UART (TTL) to RS485  converter.
 
 ###  Physical connections
-| Device | Pins |  |  |  |  |  |
+| Device | Pin | Pin | Pin | Pin | Pin | Pin |
 | --- | :---: | :---: | :---: | :---: | :---: | :---: |
 | Sensor | A | B |  |  |  |  |
 | UART to RS485 board | A | B | Tx | Rx | VCC | GND |
